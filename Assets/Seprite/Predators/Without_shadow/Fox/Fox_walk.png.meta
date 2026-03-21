@@ -1,79 +1,79 @@
 fileFormatVersion: 2
-guid: 8b2a023b3e93847289c904c98e30c9fb
+guid: 2eca3bb330b1e43bbb93ee28844c1f9e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1021251015442652952
-    second: Black_grouse_Walk_0
+      213: -5528985507704454916
+    second: Fox_walk_0
   - first:
-      213: -970682851472520299
-    second: Black_grouse_Walk_1
+      213: -9124735895001858283
+    second: Fox_walk_1
   - first:
-      213: -936456684005467592
-    second: Black_grouse_Walk_2
+      213: 5078910288889247990
+    second: Fox_walk_2
   - first:
-      213: 3003576258349671313
-    second: Black_grouse_Walk_3
+      213: -4953086091734513564
+    second: Fox_walk_3
   - first:
-      213: -8418369144226594638
-    second: Black_grouse_Walk_4
+      213: -2520235694521661021
+    second: Fox_walk_4
   - first:
-      213: -2399882382212335057
-    second: Black_grouse_Walk_5
+      213: -2094000193026285068
+    second: Fox_walk_5
   - first:
-      213: -4127006034888026144
-    second: Black_grouse_Walk_6
+      213: 940812497998903512
+    second: Fox_walk_6
   - first:
-      213: 1720662325722982146
-    second: Black_grouse_Walk_7
+      213: 6116400108817171234
+    second: Fox_walk_7
   - first:
-      213: 5700301590089463628
-    second: Black_grouse_Walk_8
+      213: -2483491994766181192
+    second: Fox_walk_8
   - first:
-      213: 7683785707933854940
-    second: Black_grouse_Walk_9
+      213: -2580945649711708282
+    second: Fox_walk_9
   - first:
-      213: 4133280126549330506
-    second: Black_grouse_Walk_10
+      213: 5609610531008104581
+    second: Fox_walk_10
   - first:
-      213: -257097947862928366
-    second: Black_grouse_Walk_11
+      213: 296764659782885791
+    second: Fox_walk_11
   - first:
-      213: 1076040826587166220
-    second: Black_grouse_Walk_12
+      213: 3839153533207477668
+    second: Fox_walk_12
   - first:
-      213: 8924532340639888805
-    second: Black_grouse_Walk_13
+      213: 1238130200589667368
+    second: Fox_walk_13
   - first:
-      213: 7156147391963290199
-    second: Black_grouse_Walk_14
+      213: -1339803572947099106
+    second: Fox_walk_14
   - first:
-      213: -4303138637032685162
-    second: Black_grouse_Walk_15
+      213: -8575148195667478297
+    second: Fox_walk_15
   - first:
-      213: 305370455229624406
-    second: Black_grouse_Walk_16
+      213: -1390026337845389679
+    second: Fox_walk_16
   - first:
-      213: 7056747129790676287
-    second: Black_grouse_Walk_17
+      213: 3347601320214272436
+    second: Fox_walk_17
   - first:
-      213: 1490704924068071957
-    second: Black_grouse_Walk_18
+      213: 1923782646156863590
+    second: Fox_walk_18
   - first:
-      213: 8547131618079623055
-    second: Black_grouse_Walk_19
+      213: 5006572782301616914
+    second: Fox_walk_19
   - first:
-      213: 9122733363374785573
-    second: Black_grouse_Walk_20
+      213: -6948487581601834870
+    second: Fox_walk_20
   - first:
-      213: 6133965451430377737
-    second: Black_grouse_Walk_21
+      213: -747958755616287128
+    second: Fox_walk_21
   - first:
-      213: 6346607599177127835
-    second: Black_grouse_Walk_22
+      213: 5988794384629571384
+    second: Fox_walk_22
   - first:
-      213: 1087560520677638349
-    second: Black_grouse_Walk_23
+      213: 3414504738180213240
+    second: Fox_walk_23
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -166,6 +166,19 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
     buildTarget: iOS
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -182,12 +195,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Black_grouse_Walk_0
+      name: Fox_walk_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 101
-        width: 21
+        x: 8
+        y: 100
+        width: 16
         height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -197,195 +210,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8e0a80ebc99c3d1f0800000000000000
-      internalID: -1021251015442652952
+      spriteID: cf04efc79f81543b0800000000000000
+      internalID: -5528985507704454916
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Black_grouse_Walk_1
+      name: Fox_walk_1
       rect:
         serializedVersion: 2
-        x: 39
-        y: 101
-        width: 17
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 59bca68e6117782f0800000000000000
-      internalID: -970682851472520299
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Black_grouse_Walk_2
-      rect:
-        serializedVersion: 2
-        x: 70
-        y: 101
-        width: 19
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 83a50528b990103f0800000000000000
-      internalID: -936456684005467592
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Black_grouse_Walk_3
-      rect:
-        serializedVersion: 2
-        x: 102
-        y: 101
-        width: 21
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 193aabe71b8dea920800000000000000
-      internalID: 3003576258349671313
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Black_grouse_Walk_4
-      rect:
-        serializedVersion: 2
-        x: 132
-        y: 101
-        width: 25
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2b0c342add1fb2b80800000000000000
-      internalID: -8418369144226594638
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Black_grouse_Walk_5
-      rect:
-        serializedVersion: 2
-        x: 165
-        y: 102
-        width: 23
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f2af38140b7e1bed0800000000000000
-      internalID: -2399882382212335057
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Black_grouse_Walk_6
-      rect:
-        serializedVersion: 2
-        x: 7
-        y: 69
-        width: 19
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0e71b9880ede9b6c0800000000000000
-      internalID: -4127006034888026144
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Black_grouse_Walk_7
-      rect:
-        serializedVersion: 2
-        x: 37
-        y: 69
-        width: 21
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 207ad1fc44501e710800000000000000
-      internalID: 1720662325722982146
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Black_grouse_Walk_8
-      rect:
-        serializedVersion: 2
-        x: 70
-        y: 69
-        width: 19
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c4770ed381a8b1f40800000000000000
-      internalID: 5700301590089463628
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Black_grouse_Walk_9
-      rect:
-        serializedVersion: 2
-        x: 102
-        y: 69
+        x: 40
+        y: 100
         width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51f78256c0d6e5180800000000000000
+      internalID: -9124735895001858283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fox_walk_2
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 99
+        width: 16
         height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -395,20 +254,42 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cdcee93146a42aa60800000000000000
-      internalID: 7683785707933854940
+      spriteID: 6f8f15f9ff9eb7640800000000000000
+      internalID: 5078910288889247990
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Black_grouse_Walk_10
+      name: Fox_walk_3
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 100
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4688c30317a134bb0800000000000000
+      internalID: -4953086091734513564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fox_walk_4
       rect:
         serializedVersion: 2
         x: 134
-        y: 69
-        width: 21
-        height: 23
+        y: 100
+        width: 18
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -417,63 +298,107 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a4a8724406c5c5930800000000000000
-      internalID: 4133280126549330506
+      spriteID: 3a9c6c51df2560dd0800000000000000
+      internalID: -2520235694521661021
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Black_grouse_Walk_11
+      name: Fox_walk_5
       rect:
         serializedVersion: 2
         x: 168
-        y: 70
+        y: 99
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f1a11f3bed90f2e0800000000000000
+      internalID: -2094000193026285068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fox_walk_6
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 64
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d8f8777bff6e0d00800000000000000
+      internalID: 940812497998903512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fox_walk_7
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 64
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 223453e2e71d1e450800000000000000
+      internalID: 6116400108817171234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fox_walk_8
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 63
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bc7f69503dd88dd0800000000000000
+      internalID: -2483491994766181192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fox_walk_9
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 66
         width: 19
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 214f52157ca9e6cf0800000000000000
-      internalID: -257097947862928366
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Black_grouse_Walk_12
-      rect:
-        serializedVersion: 2
-        x: 4
-        y: 38
-        width: 25
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c06bb804e6ddeee00800000000000000
-      internalID: 1076040826587166220
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Black_grouse_Walk_13
-      rect:
-        serializedVersion: 2
-        x: 36
-        y: 38
-        width: 25
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -483,63 +408,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5a5735e21ee4adb70800000000000000
-      internalID: 8924532340639888805
+      spriteID: 68708542b93ae2cd0800000000000000
+      internalID: -2580945649711708282
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Black_grouse_Walk_14
+      name: Fox_walk_10
       rect:
         serializedVersion: 2
-        x: 68
-        y: 38
-        width: 24
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 75a5f4a532ebf4360800000000000000
-      internalID: 7156147391963290199
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Black_grouse_Walk_15
-      rect:
-        serializedVersion: 2
-        x: 100
-        y: 38
-        width: 24
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6918868653e2844c0800000000000000
-      internalID: -4303138637032685162
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Black_grouse_Walk_16
-      rect:
-        serializedVersion: 2
-        x: 132
-        y: 38
-        width: 24
+        x: 136
+        y: 65
+        width: 15
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -549,20 +430,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6507cd4afc4ec3400800000000000000
-      internalID: 305370455229624406
+      spriteID: 58847059e0759dd40800000000000000
+      internalID: 5609610531008104581
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Black_grouse_Walk_17
+      name: Fox_walk_11
       rect:
         serializedVersion: 2
-        x: 164
-        y: 38
-        width: 24
-        height: 22
+        x: 168
+        y: 64
+        width: 15
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -571,19 +452,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f3d3ee4502a9ee160800000000000000
-      internalID: 7056747129790676287
+      spriteID: f91af30c2e15e1400800000000000000
+      internalID: 296764659782885791
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Black_grouse_Walk_18
+      name: Fox_walk_12
       rect:
         serializedVersion: 2
-        x: 3
-        y: 6
-        width: 25
+        x: 0
+        y: 36
+        width: 31
         height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -593,19 +474,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 51ac008fa3c00b410800000000000000
-      internalID: 1490704924068071957
+      spriteID: 4ad74093cc9674530800000000000000
+      internalID: 3839153533207477668
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Black_grouse_Walk_19
+      name: Fox_walk_13
       rect:
         serializedVersion: 2
-        x: 35
-        y: 6
-        width: 25
+        x: 32
+        y: 36
+        width: 31
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -615,19 +496,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f8745280ce28d9670800000000000000
-      internalID: 8547131618079623055
+      spriteID: 82c84d78bd8be2110800000000000000
+      internalID: 1238130200589667368
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Black_grouse_Walk_20
+      name: Fox_walk_14
       rect:
         serializedVersion: 2
-        x: 68
-        y: 6
-        width: 24
+        x: 64
+        y: 36
+        width: 32
         height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -637,19 +518,85 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5240f80e8a57a9e70800000000000000
-      internalID: 9122733363374785573
+      spriteID: e1260bdbfbf086de0800000000000000
+      internalID: -1339803572947099106
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Black_grouse_Walk_21
+      name: Fox_walk_15
       rect:
         serializedVersion: 2
-        x: 100
-        y: 6
-        width: 24
+        x: 96
+        y: 36
+        width: 33
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e878ec2624fef880800000000000000
+      internalID: -8575148195667478297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fox_walk_16
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 36
+        width: 33
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 196d9401962a5bce0800000000000000
+      internalID: -1390026337845389679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fox_walk_17
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 36
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b910051aa1157e20800000000000000
+      internalID: 3347601320214272436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fox_walk_18
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 4
+        width: 31
         height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -659,19 +606,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 909b6053419302550800000000000000
-      internalID: 6133965451430377737
+      spriteID: 668ad31cf16a2ba10800000000000000
+      internalID: 1923782646156863590
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Black_grouse_Walk_22
+      name: Fox_walk_19
       rect:
         serializedVersion: 2
-        x: 132
-        y: 6
-        width: 24
+        x: 33
+        y: 4
+        width: 31
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -681,19 +628,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b975fb55cfda31850800000000000000
-      internalID: 6346607599177127835
+      spriteID: 21b1a376b6bea7540800000000000000
+      internalID: 5006572782301616914
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Black_grouse_Walk_23
+      name: Fox_walk_20
       rect:
         serializedVersion: 2
-        x: 164
-        y: 6
-        width: 24
+        x: 64
+        y: 4
+        width: 32
         height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -703,8 +650,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dc0caba088ac71f00800000000000000
-      internalID: 1087560520677638349
+      spriteID: a88d864fb53029f90800000000000000
+      internalID: -6948487581601834870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fox_walk_21
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 4
+        width: 33
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86619d08977be95f0800000000000000
+      internalID: -747958755616287128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fox_walk_22
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 4
+        width: 33
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83f13b843c87c1350800000000000000
+      internalID: 5988794384629571384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fox_walk_23
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 4
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f9ae13f7f1c26f20800000000000000
+      internalID: 3414504738180213240
       vertices: []
       indices: 
       edges: []
@@ -723,30 +736,30 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Black_grouse_Walk_0: -1021251015442652952
-      Black_grouse_Walk_1: -970682851472520299
-      Black_grouse_Walk_10: 4133280126549330506
-      Black_grouse_Walk_11: -257097947862928366
-      Black_grouse_Walk_12: 1076040826587166220
-      Black_grouse_Walk_13: 8924532340639888805
-      Black_grouse_Walk_14: 7156147391963290199
-      Black_grouse_Walk_15: -4303138637032685162
-      Black_grouse_Walk_16: 305370455229624406
-      Black_grouse_Walk_17: 7056747129790676287
-      Black_grouse_Walk_18: 1490704924068071957
-      Black_grouse_Walk_19: 8547131618079623055
-      Black_grouse_Walk_2: -936456684005467592
-      Black_grouse_Walk_20: 9122733363374785573
-      Black_grouse_Walk_21: 6133965451430377737
-      Black_grouse_Walk_22: 6346607599177127835
-      Black_grouse_Walk_23: 1087560520677638349
-      Black_grouse_Walk_3: 3003576258349671313
-      Black_grouse_Walk_4: -8418369144226594638
-      Black_grouse_Walk_5: -2399882382212335057
-      Black_grouse_Walk_6: -4127006034888026144
-      Black_grouse_Walk_7: 1720662325722982146
-      Black_grouse_Walk_8: 5700301590089463628
-      Black_grouse_Walk_9: 7683785707933854940
+      Fox_walk_0: -5528985507704454916
+      Fox_walk_1: -9124735895001858283
+      Fox_walk_10: 5609610531008104581
+      Fox_walk_11: 296764659782885791
+      Fox_walk_12: 3839153533207477668
+      Fox_walk_13: 1238130200589667368
+      Fox_walk_14: -1339803572947099106
+      Fox_walk_15: -8575148195667478297
+      Fox_walk_16: -1390026337845389679
+      Fox_walk_17: 3347601320214272436
+      Fox_walk_18: 1923782646156863590
+      Fox_walk_19: 5006572782301616914
+      Fox_walk_2: 5078910288889247990
+      Fox_walk_20: -6948487581601834870
+      Fox_walk_21: -747958755616287128
+      Fox_walk_22: 5988794384629571384
+      Fox_walk_23: 3414504738180213240
+      Fox_walk_3: -4953086091734513564
+      Fox_walk_4: -2520235694521661021
+      Fox_walk_5: -2094000193026285068
+      Fox_walk_6: 940812497998903512
+      Fox_walk_7: 6116400108817171234
+      Fox_walk_8: -2483491994766181192
+      Fox_walk_9: -2580945649711708282
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
