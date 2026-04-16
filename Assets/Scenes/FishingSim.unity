@@ -6852,6 +6852,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2900139632034723006, guid: 81585a83746d749b781a34fd6cf72d35, type: 3}
+      propertyPath: m_ShadowSoftness
+      value: 0.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 2900139632034723006, guid: 81585a83746d749b781a34fd6cf72d35, type: 3}
       propertyPath: m_PointLightOuterRadius
       value: 2.6213326
       objectReference: {fileID: 0}
