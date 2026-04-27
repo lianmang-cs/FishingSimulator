@@ -36,7 +36,8 @@ public class FishBehaviour : MonoBehaviour
         transform.position = Vector3.MoveTowards(transform.position, randomPos, fishSpeed);     
     }
     private void OnTriggerEnter2D(Collider2D other) {
-        if(other.CompareTag("Hook")) {
+        if(other.CompareTag("Hook") && !FishingMiniGame.instance.isHooked) {
+            FishingMiniGame.instance.isHooked = true; 
             //start the mini game
             FishingMiniGame.instance.StartMiniGame(gameObject, catchDifficulty); 
         }

@@ -17,8 +17,10 @@ public class FishingMiniGame : MonoBehaviour
     private float fishBar = 0f; 
     private float fishDifficulty;
     private bool isActive = false;  
+    public bool isHooked = false; //bool check that allows one fish to be hooked at a time. 
+    public bool isCaught = false; //bool chekc if a fish is caught
 
-    private GameObject caughtFish; 
+    public GameObject caughtFish; 
     
 void Awake() {
     instance = this; 
@@ -51,13 +53,15 @@ public void StartMiniGame(GameObject fish, float difficulty) {
     fishDifficulty = difficulty;
     //make the mini game panel visible
     miniGamePanel.SetActive(true); 
-    //stop the fish behavior script
-    fish.GetComponent<FishBehaviour>().enabled = false;  
+    //disable the fish collider so other fish can trigger hook 
+    fish.GetComponent<Collider2D>().enabled = false;  
     //disable the fish behaviour script
     fish.GetComponent<FishBehaviour>().enabled = false; 
 }
 void PlayerWins() {
         isActive = false; 
+        isHooked = false; //reset the hook
+        isCaught = true; //play caught the fis
         //hide the mini game panel
         miniGamePanel.SetActive(false); 
         //hide fish
@@ -66,12 +70,15 @@ void PlayerWins() {
     }
 void FishWins() {
         isActive = false; 
+        isHooked = false; //reset the hook
         //hide the mini game panel 
         miniGamePanel.SetActive(false);
+        caughtFish.GetComponent<Collider2D>().enabled = true; 
         //resume the fish behaviour script
         caughtFish.GetComponent<FishBehaviour>().enabled = true;
         //fish got away
-        caughtFish = null;   
+        caughtFish = null;  
+        
 
     }
     
