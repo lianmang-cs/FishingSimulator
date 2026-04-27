@@ -11,6 +11,8 @@ public class FishBehaviour : MonoBehaviour
     public float fishSpeed; 
     //time until moving to new random position
     public float waitTime;
+    //catch difficulty
+    public float catchDifficulty; 
 
     private Vector3 randomPos;
     private float timer;  
@@ -30,8 +32,14 @@ public class FishBehaviour : MonoBehaviour
         timer = waitTime; 
         }
 
-        //move to the random position
+        //fish moves to the random position
         transform.position = Vector3.MoveTowards(transform.position, randomPos, fishSpeed);     
+    }
+    private void OnTriggerEnter2D(Collider2D other) {
+        if(other.CompareTag("Hook")) {
+            //start the mini game
+            FishingMiniGame.instance.StartMiniGame(gameObject, catchDifficulty); 
+        }
     }
     
 }
