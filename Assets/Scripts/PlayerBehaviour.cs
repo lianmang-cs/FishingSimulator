@@ -6,12 +6,19 @@ public class PlayerBehaviour : MonoBehaviour
     public float animSpeed; 
     public float min;
     public float max;   
-    public Animator animator; 
+    public Animator animator;
+
+    private bool isCasting = false; 
+
     // Update is called once per frame
     void Update()
     {
         
-        float offset = 0.0f; 
+        float offset = 0.0f;
+        if (Keyboard.current.spaceKey.isPressed && !isCasting && offset == 0) {
+            isCasting = true; 
+            animator.SetBool("IsFishing", true); 
+        } 
         //Left move
         if (Keyboard.current.leftArrowKey.isPressed || Keyboard.current.aKey.isPressed) {
             offset = -movSpeed;
@@ -36,7 +43,7 @@ public class PlayerBehaviour : MonoBehaviour
             //set animation to idle
             animSpeed = 0; 
         }
-         Vector3 newPos = transform.position;
+        Vector3 newPos = transform.position;
         newPos.x = newPos.x + offset; 
         // Prevent movement too far right
         if (newPos.x > max)
