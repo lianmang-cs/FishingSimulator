@@ -209,7 +209,7 @@ MonoBehaviour:
   bottomBound: -4.62
   fishSpeed: 0.002
   waitTime: 3
-  catchDifficulty: 0.03
+  catchDifficulty: 0.04
 --- !u!60 &6399237238797042877
 PolygonCollider2D:
   m_ObjectHideFlags: 0

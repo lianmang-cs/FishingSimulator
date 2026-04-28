@@ -14,7 +14,7 @@ public class GameManager : MonoBehaviour
     private int[] dailyCatchGoals = {3, 4, 5}; //fishes to catch per day (only 3 days)
     private int currDayIdx = 0; //current day index
     private int fishCaught = 0; 
-    //Time
+
     private float timeToCatch = 240f; //the time a player has to catch the daily goal (4 min)
     private float timeRemaining; 
 

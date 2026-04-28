@@ -17,7 +17,7 @@ public class FishingBehaviour : MonoBehaviour
     void Update()
     {
         //player fishing
-        if (Keyboard.current.spaceKey.isPressed && !isHoldingFish && !isCasting) {
+        if (Keyboard.current.spaceKey.wasPressedThisFrame && !isHoldingFish && !isCasting) {
             //make the fishing line visible
             isCasting = true;
             //turn on the fishing animation
@@ -32,7 +32,7 @@ public class FishingBehaviour : MonoBehaviour
             }     
         }
         //player reeling
-        if (Keyboard.current.eKey.isPressed && FishingMiniGame.instance.isCaught) {
+        if (Keyboard.current.eKey.wasPressedThisFrame && FishingMiniGame.instance.isCaught) {
             //hide the fishing line
             fishingLine.SetActive(false);
             //reset hook
