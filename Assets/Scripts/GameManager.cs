@@ -89,7 +89,7 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 0f; 
         gameOverPanel.SetActive(true); 
     }
-    void restartDay() {
+    public void restartDay() {
         //Resume and reset the day
         Time.timeScale = 1f; 
         fishCaught = 0; //rest fish caught
@@ -98,7 +98,7 @@ public class GameManager : MonoBehaviour
         //update the fish count back to 0
         updateFishCount(); 
     }
-    void goToMainMenu() {
+    public void goToMainMenu() {
         SceneManager.LoadScene("MainMenu"); 
     }
 }
