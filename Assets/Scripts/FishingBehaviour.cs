@@ -3,7 +3,7 @@ using UnityEngine.InputSystem;
 public class FishingBehaviour : MonoBehaviour
 {
     public GameObject fishingLine;
-    private GameObject fishHeld;
+    public GameObject fishHeld;
     public Transform fishHoldPos;  
     public Animator animator;
     //delay the fishing line 
@@ -11,8 +11,7 @@ public class FishingBehaviour : MonoBehaviour
 
     private float lineTimer = 0f; 
     private bool isCasting = false;
-    private bool isHoldingFish = false; 
-
+    public bool isHoldingFish = false; 
 
     // Update is called once per frame
     void Update()
@@ -36,6 +35,8 @@ public class FishingBehaviour : MonoBehaviour
         if (Keyboard.current.eKey.isPressed && FishingMiniGame.instance.isCaught) {
             //hide the fishing line
             fishingLine.SetActive(false);
+            //reset hook
+            FishingMiniGame.instance.isHooked = false;
             //transition back to idle/walk
             animator.SetBool("IsFishing", false); 
             //Show fish on top of player's head

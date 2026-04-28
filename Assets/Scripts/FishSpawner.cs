@@ -15,7 +15,10 @@ public class FishSpawner : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-       //loop through the fish prefab
+       SpawnFish(); 
+    }
+    public void SpawnFish() {
+        //loop through the fish prefab
         for(int i = 0; i < fishCount; i++) {
             //random positions in the water to spawn the fish
             float ranPosX = Random.Range(leftBound, rightBound);
@@ -27,11 +30,5 @@ public class FishSpawner : MonoBehaviour
             //spawn the fish
             Instantiate(ranFishPrefab, ranSpawnPos, Quaternion.identity);
         }
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }

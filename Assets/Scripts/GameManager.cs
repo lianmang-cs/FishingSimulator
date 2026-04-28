@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
     public TMP_Text gameTimeTxt; 
     public GameObject gameOverPanel; 
     public GameObject gameWonPanel; 
+    public FishSpawner fishSpawner; 
 
     private int[] dailyCatchGoals = {3, 4, 5}; //fishes to catch per day (only 3 days)
     private int currDayIdx = 0; //current day index
@@ -66,6 +67,8 @@ public class GameManager : MonoBehaviour
             gameWonPanel.SetActive(true);
         }
         else {
+
+            fishSpawner.SpawnFish(); 
             //start the next day and reset the timer
             timeRemaining = timeToCatch; 
             updateFishCount(); 

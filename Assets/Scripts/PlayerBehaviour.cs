@@ -54,5 +54,23 @@ public class PlayerBehaviour : MonoBehaviour
         animator.SetFloat("Speed", animSpeed); 
 
     }
+    //when player touches the barrel, deposit the fish
+    private void OnTriggerEnter2D(Collider2D other) {
+        FishingBehaviour fishing = GetComponent<FishingBehaviour>(); 
+        if(other.CompareTag("Barrel") && fishing.isHoldingFish) {
+            //destroy fish on top of player
+            Destroy(fishing.fishHeld); 
+            //reset fish held to none
+            fishing.isHoldingFish = false; 
+            //reset hook
+            FishingMiniGame.instance.isHooked = false; 
+            //reset caught
+            FishingMiniGame.instance.isCaught = false; 
+            //call the method from Game Manager to handle score
+            GameManager.instance.FishDeposited(); 
+
+
+        }
+    }
     
 }

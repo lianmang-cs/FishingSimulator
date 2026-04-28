@@ -51,22 +51,20 @@ public void StartMiniGame(GameObject fish, float difficulty) {
     isActive = true; //start the mini game
     caughtFish = fish;
     fishDifficulty = difficulty;
+    playerBar = 0; //reset player bar
+    fishBar = 0; //reset fish bar
     //make the mini game panel visible
     miniGamePanel.SetActive(true); 
-    //disable the fish collider so other fish can trigger hook 
-    fish.GetComponent<Collider2D>().enabled = false;  
     //disable the fish behaviour script
     fish.GetComponent<FishBehaviour>().enabled = false; 
 }
 void PlayerWins() {
         isActive = false; 
-        isHooked = false; //reset the hook
         isCaught = true; //play caught the fis
         //hide the mini game panel
         miniGamePanel.SetActive(false); 
         //hide fish
         caughtFish.SetActive(false);
-
     }
 void FishWins() {
         isActive = false; 
@@ -78,8 +76,6 @@ void FishWins() {
         caughtFish.GetComponent<FishBehaviour>().enabled = true;
         //fish got away
         caughtFish = null;  
-        
-
     }
     
 }
